@@ -6,8 +6,8 @@ from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 class U88sipderSpider(scrapy.Spider):
     name = 'u88sipder'
-    allowed_domains = ['u88.com']
-    start_urls = ['https://www.u88.com/']
+    allowed_domains = ['xiuxianyike.com']
+    start_urls = ['http://www.xiuxianyike.com/']
     #def start_requests(self):
         #urls=["http://www.phone.net"]
         #for url in urls:
@@ -15,7 +15,7 @@ class U88sipderSpider(scrapy.Spider):
     def parse(self, response):
         item = U88LinkItem()
         sel = scrapy.Selector(response)
-        links_in_a_page = sel.xpath('//a[@href]')  # 页面内的所有链接
+        links_in_a_page = sel.xpath('//a[@href] | //link[@href]')  # 页面内的所有链接
         for link_sel in links_in_a_page:
             link = str(link_sel.re('href="(.*?)"')[0]) # 每一个url
             link=link.replace('%20', '')
@@ -30,15 +30,16 @@ class U88sipderSpider(scrapy.Spider):
                 #else:
                 #    item['title'] = None
                 #item['status'] = response.status
-               # item['link']=response.urljoin(link)
-                #print(item['link'])
-                yield item
+                #item['link']=response.urljoin(link)
+                print(response.urljoin(link))
+                #yield item
 
     def parse_httpbin(self, response):
         self.logger.info('Got successful response from {}'.format(response.url))
         # do something useful here...
 
     def errback_httpbin(self, failure):
+        item = U88LinkItem()
         # log all failures
         #self.logger.error(repr(failure))
         # in case you want to do something special for some errors,
@@ -48,6 +49,9 @@ class U88sipderSpider(scrapy.Spider):
             # you can get the non-200 response
             response = failure.value.response
             referers=response.request.headers.get('Referer', None)
+            item['link']=response.url
+            item['status']=response.status
+            item['referer']=referers
             print(response.url,response.status,referers)
             #self.logger.error('HttpError on %d,%s', (response.url,response.status))
         elif failure.check(DNSLookupError):
@@ -57,3 +61,4 @@ class U88sipderSpider(scrapy.Spider):
         elif failure.check(TimeoutError, TCPTimedOutError):
             request = failure.request
             self.logger.error('TimeoutError on %s', request.url)
+        yield item
