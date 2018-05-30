@@ -14,6 +14,7 @@ BOT_NAME = 'u88link'
 SPIDER_MODULES = ['u88link.spiders']
 NEWSPIDER_MODULE = 'u88link.spiders'
 LOG_LEVEL= 'DEBUG'
+LOG_FILE = "mySpider.log"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0'
 

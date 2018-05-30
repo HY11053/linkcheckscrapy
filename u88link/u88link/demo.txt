@@ -1,0 +1,860 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+
+<meta name="baidu-site-verification" content="ncbbU93BIP" />
+
+<meta name="sogou_site_verification" content="Iyis7rENXr"/>
+
+<meta name="360-site-verification" content="192b00c2e4248eba9f2037c7368ca84a" />
+
+<meta property="og:type" content="image"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="mobile-agent" content="format=wml; url=http://m.meiguiyuan.com" />
+<meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.meiguiyuan.com" />
+<meta http-equiv="mobile-agent" content="format=html5; url=http://m.meiguiyuan.com" />
+
+<meta property="og:image" content="/logo.jpg"/>
+<link rel="alternate" media="only screen and(max-width: 640px)"     href="http://m.meiguiyuan.com/" >
+<meta name="applicable-device" content="pc">
+
+<title>UCC干洗店加盟连锁-中国十大洗衣店加盟_干洗店加盟连锁优选品牌</title>
+<meta name="keywords" content="干洗店加盟,干洗店加盟连锁,加盟干洗店,洗衣店加盟,UCC干洗店加盟,干洗店加盟费" />
+<meta name="description" content="UCC干洗店加盟连锁,是集干洗机设备自主研发、干洗店加盟连锁服务以及干洗加盟售后服务为一体的干洗加盟连锁品牌,UCC洗衣店加盟连锁优选品牌,系统化干洗技术培训助你开店无忧,点击咨询" />
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+
+<link href="/templets/meiguiyuan/css/css.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+
+	function Timing_Check()
+
+	{
+	  var taget_obj = document.getElementById('say_hello');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("/plus/timing_check.php");
+	  DedeXHTTP = null;
+	}
+
+</script>
+
+</head>
+
+<body>
+
+<script src="/templets/meiguiyuan/js/jquerya.js" type="text/javascript"></script>
+<script src="http://www.ganxi360.net/uploads/shangwutong/topbn.js" type="text/javascript"></script>
+<div id="say_hello" style="display:none;"></div>
+<script language="javascript" type="text/javascript">Timing_Check();</script>
+<div id="say_hello" style="display:none;"></div>
+
+<script language="javascript" type="text/javascript">Timing_Check();</script>
+<div class="header">
+
+		<div class="box" style="position:relative;">
+
+		<div class="logo"><h1><a href="/" class="png">干洗店加盟</a></h1></div>
+
+<div style="position: absolute; right:100px;; top:30px;">
+
+<script type="text/javascript">document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E%3Cscript charset="utf-8" src="http://znsv.baidu.com/customer_search/api/js?sid=12956164756899770273') + '&plate_url=' + (encodeURIComponent(window.location.href)) + '&t=' + (Math.ceil(new Date()/3600000)) + unescape('"%3E%3C/script%3E'));</script>
+
+<script src="http://www.ucc.cn/js/uaredirect.js" type="text/javascript"></script>
+</div>
+
+	</div>
+
+</div>
+
+
+
+<div class="menu">
+
+<div class="daohang">
+
+<ul>
+
+<li><a href="/">首页</a></li>
+
+<li><a href="/fangan/">干洗店加盟方案</a></li>
+
+<li><a href="/lirun/">干洗店利润</a></li>
+
+<li><a href="/touzi/">干洗店投资</a></li>
+
+<li><a href="/youshi/">干洗店加盟优势</a></li>
+
+<li><a href="/shebei/">干洗设备</a></li>
+
+<li><a href="/jiage/">干洗机价格</a></li>
+
+<li><a href="/peixun/">加盟培训</a></li>
+
+<li><a href="/lianxi/" rel="nofollow">联系我们</a></li>
+
+</ul>
+
+</div>
+
+</div><div class="body_bg">
+
+<div class="body_bg1">
+
+<div class="body_bg2">
+
+<div class="body_bg3">
+
+<div class="body_bg4"><!--幻灯片开始-->
+
+<div id="ifocus" class="ifocus">
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+		   var currentIndex = 3;
+            var DEMO;
+            var currentID = 3;
+            var pictureID = 3;
+            $("#ifocus_piclist li").eq(0).show();
+            autoScroll();
+            $("#ifocus_btn li").hover(function() {
+                StopScrolll();
+                $("#ifocus_btn li").removeClass("current")
+                $(this).addClass("current");
+                currentID = $(this).attr("id");
+                pictureID = currentID.substring(currentID.length - 1);
+                $("#ifocus_piclist li").eq(pictureID).fadeIn("slow");
+                $("#ifocus_piclist li").not($("#ifocus_piclist li")[pictureID]).hide();
+            }, function() {
+
+                currentID = $(this).attr("id");
+                pictureID = currentID.substring(currentID.length - 1);
+                currentIndex = pictureID;
+                autoScroll();
+            });
+
+            function autoScroll() {
+                $("#ifocus_btn li:last").removeClass("current");
+                $("#ifocus_btn li").eq(currentIndex).addClass("current");
+                $("#ifocus_btn li").eq(currentIndex - 1).removeClass("current");
+                $("#ifocus_piclist li").eq(currentIndex).fadeIn("slow");
+                $("#ifocus_piclist li").eq(currentIndex - 1).hide();
+                currentIndex++; currentIndex = currentIndex >= 3 ? 0 : currentIndex;
+                DEMO = setTimeout(autoScroll, 3000);
+            }
+            function StopScrolll()
+            {
+                clearTimeout(DEMO);
+            }
+	});
+    </script>
+			<div id="ifocus_pic" class="ifocus_pic">
+                	<div style="height: 250px; overflow: hidden; position: relative;">
+					<div style="left: 0pt; top: 0pt;" id="ifocus_piclist" class="ifocus_piclist">
+						<ul>
+						<li><a target="_blank" href="/ucczt/"><img src="/templets/meiguiyuan/images/fbth.jpg" alt="UCC国际洗衣5000万巨额让利" width="980" height="250"/></a></li>
+
+
+
+						<li><a target="_blank" href="javascript:void(0)" onclick="online()" rel="nofollow"><img src="/templets/meiguiyuan/images/flash4.jpg" alt="UCC国际洗衣售后服务保障" width="980" height="250"/></a></li>
+                        <li><a target="_blank" href="/peixun/2031.html"><img src="/templets/meiguiyuan/images/flash1.jpg" width="980" height="250" alt="UCC国际洗衣品牌形象大使"/></a></li>
+						<li><a target="_blank" href="/peixun/1785.html"><img src="/templets/meiguiyuan/images/flash2.jpg" width="980" height="250" alt="UCC国际洗衣荣誉" /></a></li>
+
+                      </ul>
+					</div>
+                    </div>
+			</div>
+			<div id="ifocus_btn" class="ifocus_btn png">
+                                <ul>
+                                    <li id="p0" class="png">1</li>
+                                    <li id="p1" class="png">2</li>
+                                    <li id="p2" class="png">3</li>
+
+
+
+                                    <li id="p3" class="png">4</li>
+                                </ul>
+  			</div>
+			</div>
+<!--幻灯片结束-->
+<div class="box clearfix">
+	<div class="in_left">
+		<div class="clearfix">
+
+
+		<!--新增内容模块-->
+
+				<div class="w368" style="margin-top:0">
+			<div class="yj_bt"><em><a href="/fangan/">更多>></a></em><h2><a href="/fangan/" title="干洗店加盟投资方案">加盟投资方案</a></h2></div>
+
+				<div class="borders">
+				<div class="c-yblock">
+					<p>加盟投资方案</p>
+
+
+
+				</div>
+
+						<div class="su_fangan">
+						<dl>
+							<dt class="btn_success"><a href="/fangan/4933.html">三星干洗店加盟方案A</a></dt>
+							<dd class="btn_warn">￥50280</dd>
+
+						</dl>
+						<dl>
+							<dt class="btn_success"><a href="/fangan/4934.html">三星干洗店加盟方案B</a></dt>
+							<dd class="btn_warn">￥69180</dd>
+
+						</dl>
+						<dl>
+							<dt class="btn_success"><a href="/fangan/4935.html">四星干洗店加盟方案A</a></dt>
+							<dd class="btn_warn">￥110660</dd>
+
+						</dl>
+						<dl>
+							<dt class="btn_success"><a href="/fangan/4936.html">四星干洗店加盟方案B</a></dt>
+							<dd class="btn_warn">￥133760</dd>
+
+						</dl>
+						<dl>
+							<dt class="btn_success"><a href="/fangan/4937.html">五星干洗店加盟方案A</a></dt>
+							<dd class="btn_warn">￥229680</dd>
+
+						</dl>
+
+
+
+
+						</div>
+						</div>
+
+		</div>
+
+
+			<div class="w368" style="margin-top:0">
+			<div class="yj_bt"><em><a href="/peixun/">更多>></a></em><h2><a href="/peixun/" title="干洗技术培训">干洗技术培训</a></h2></div>			<div class="yj_c h227 dllb1 ullb1">
+
+                            <div class="sequence-theme">
+
+                                <div id="sequence">
+
+                                    <img class="sequence-prev" src="/templets/meiguiyuan/images/bt-prev.png" alt="上一屏" />
+
+                                    <img class="sequence-next" src="/templets/meiguiyuan/images/bt-next.png" alt="下一屏" />
+
+                                    <ul class="sequence-canvas">
+
+                                        <li class="animate-in">
+
+                                            <div class="title filter_ie"><p>
+
+                                                分期、分批次干洗技术培训<br/>
+
+                                                UCC国际洗衣权威干洗培训讲师分期、分批次、分地区开展售前、售后培训计划</p>
+
+                                            <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">索要资料</a></p>
+
+                                            <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">培训咨询</a></p>
+
+                                            </div><img class="model" src="/templets/meiguiyuan/images/model1.png" alt="技术培训现场1" />
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class=" filter_ie title"><p>
+
+                                                包会干洗技术培训<br/>
+
+                                                洗衣店加盟总部免费包干洗技术培训,学会为止,强大的总部后续服务,让干洗加盟无后顾之忧</p>
+
+                                                <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">索要资料</a></p>
+
+                                                <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">培训咨询</a></p>
+
+
+
+                                            </div><img class="model" src="/templets/meiguiyuan/images/model2.png" alt="技术培训现场2" />
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="filter_ie title"><p>完善的干洗技术<br/>
+
+                                                感恩大回馈 完善的干洗技术培训以及UCC干洗加盟5000万巨额让利让加盟商开店起点更低<br/></p>
+
+                                                <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">索要资料</a></p>
+
+                                                <p class="btn_warnpx"><a href="javascript:void(0);" onClick="online()" rel="nofollow">培训咨询</a></p>
+
+
+
+                                            </div><img class="model" src="/templets/meiguiyuan/images/model3.png" alt="技术培训现场3" />
+
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+						</div>
+		</div>
+
+
+
+
+		<!--新增内容模块end-->
+		<div class="w368" style="margin-top:0; clear:both">
+			<div class="yj_bt"><em><a href="/zhinan/">更多>></a></em><h2><a href="/zhinan/" title="加盟指南">加盟指南</a></h2></div>
+			<div class="yj_c h227 dllb1 ullb1">
+				<dl>
+					<dt><a href="/youshi/312.html" target="_blank" title="中国干洗店十大排名"><img src="/uploads/allimg/140422/1_140422133208_1.jpg" width="108" height="80" alt="中国干洗店十大排名" /></a></dt>
+					<dd>
+
+
+
+						<h3><strong style="overflow:hidden"><a href="/youshi/312.html" target="_blank" title="中国干洗店十大排名">中国干洗店十大排名</a></strong></h3>
+						<span>中国干洗店十大排名： 这个话题是近一年预期来干洗行业关注度极高的话题，对于投资者而行，了解中国干洗店</span>
+					</dd>
+
+				</dl>
+				<ul class="clearfix">
+
+
+
+					<li><h2><a href="/zhinan/4385.html" title="干洗店加盟哪个好">干洗店加盟哪个好</a></h2><em>2015-05-14</em></li>
+
+					<li><em>2018-05-07</em><a href="/zhinan/10486.html" target="_blank" title="干洗店加盟品牌怎么选择？">干洗店加盟品牌怎么选择？</a></li>
+<li><em>2018-04-11</em><a href="/zhinan/10457.html" target="_blank" title="干洗设备什么品牌比较偏好?">干洗设备什么品牌比较偏好?</a></li>
+<li><em>2018-04-11</em><a href="/zhinan/10453.html" target="_blank" title="干洗店的设备成本是多少?">干洗店的设备成本是多少?</a></li>
+<li><em>2018-04-11</em><a href="/zhinan/10450.html" target="_blank" title="开干洗店需要做什么准备?">开干洗店需要做什么准备?</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+
+
+		<div class="w368" style="margin-top:0">
+			<div class="yj_bt"><em><a href="/lirun/">更多>></a></em><h2><a href="/lirun/" title="干洗店利润">干洗店利润</a></h2></div>
+			<div class="yj_c h227 dllb1 ullb1">
+				<dl>
+
+<dt><a href="/lirun/19.html" target="_blank"><img src="/uploads/151121/1-151121091U25J.jpg" width="108" height="80" /></a></dt>
+					<dd>
+						<h3><strong style="overflow:hidden"><a href="/lirun/19.html" target="_blank" title="开干洗店赚钱吗？">开干洗店赚钱吗？</a></strong></h3>
+						<span style="overflow:hidden">开干洗店赚钱吗？ 这是许多干洗投资者心中的较大的疑问，也是迟迟不敢上前，一直处于观望状态的原因。那么到底开干洗店赚钱吗？现阶段的干洗行业之所以能让投资者青睐，无疑是因为它可观的利润，如果不赚钱，又怎会以如此频繁的速度在全国各地扩张，又怎会在</span>
+					</dd>
+
+				</dl>
+				<ul class="clearfix">
+
+<li><em>2018-05-09</em><a href="/lirun/10524.html" target="_blank" title="干洗店利润空间如何">干洗店利润空间如何</a></li>
+<li><em>2018-05-07</em><a href="/lirun/10489.html" target="_blank" title="如何才能提高干洗店的利润？">如何才能提高干洗店的利润？</a></li>
+<li><em>2018-05-03</em><a href="/lirun/10476.html" target="_blank" title="干洗加盟店的利润有多大呢？">干洗加盟店的利润有多大呢？</a></li>
+<li><em>2018-04-11</em><a href="/lirun/10456.html" target="_blank" title="当前干洗店的利润好不好?">当前干洗店的利润好不好?</a></li>
+<li><em>2018-04-11</em><a href="/lirun/10454.html" target="_blank" title="现在开家干洗店赚钱吗?">现在开家干洗店赚钱吗?</a></li>
+
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div class="bn756">
+		<a href="javascript:;" onclick="openZoosUrl('chatwin');" rel="nofollow"><img src="/templets/meiguiyuan/images/746x90.jpg" /></a>
+		</div>
+		<div class="clearfix">
+		<div class="w368">
+			<div class="yj_bt"><em><a href="/touzi/">更多>></a></em><h2><a href="/touzi/" title="干洗店投资">干洗店投资</a></h2></div>
+			<div class="yj_c h227 dllb1 ullb1">
+				<dl>
+
+<dt><a href="/lirun/383.html" target="_blank"><img src="/uploads/allimg/160318/1_160318093337_1.jpg" width="108" height="80" /></a></dt>
+					<dd>
+						<h3><strong style="overflow:hidden"><a href="/lirun/383.html" target="_blank" title="干洗店利润分析">干洗店利润分析</a></strong></h3>						<span style="overflow:hidden">干洗店利润分析： 很多人都问到干洗店利润，其实干洗店的利润是非常高的，几乎可以说是一本万利，可是为什</span>
+					</dd>
+
+				</dl>
+				<ul class="clearfix">
+
+<li><em>2018-04-11</em><a href="/touzi/10455.html" target="_blank" title="在学校投资开干洗店利润高吗?">在学校投资开干洗店利润高吗?</a></li>
+<li><em>2018-04-11</em><a href="/touzi/10451.html" target="_blank" title="投资开干洗店怎么样开比较稳定?">投资开干洗店怎么样开比较稳定?</a></li>
+<li><em>2018-04-10</em><a href="/touzi/10446.html" target="_blank" title="投资开一个干洗店怎么样?">投资开一个干洗店怎么样?</a></li>
+<li><em>2018-04-10</em><a href="/touzi/10443.html" target="_blank" title="投资干洗店淡季怎样经营比较好?">投资干洗店淡季怎样经营比较好?</a></li>
+<li><em>2018-04-08</em><a href="/touzi/10425.html" target="_blank" title="投资开一家干洗店成本多少钱?">投资开一家干洗店成本多少钱?</a></li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="w368">
+			<div class="yj_bt"><em><a href="/chengben/">更多>></a></em><h2><a href="/chengben/" title="干洗店加盟费">干洗店加盟费</a></h2></div>
+			<div class="yj_c h227 dllb1 ullb1">
+				<dl>
+
+<dt><a href="/chengben/3102.html" target="_blank" title="开一间干洗店成本多少"><img src="/uploads/allimg/140916/7_140916112516_1.jpg"  alt="开一间干洗店成本多少" width="108" height="80" /></a></dt>
+					<dd>
+						<h3><strong style="overflow:hidden"><a href="/chengben/3102.html" target="_blank" title="开一间干洗店成本多少">开一间干洗店成本多少</a></strong></h3>						<span style="overflow:hidden">开一间干洗店成本多少?开家干洗店首先需要的是一定的资金，只有我们能确定干洗店的规模就能确定干洗店的成</span>
+					</dd>
+
+				</dl>
+				<ul class="clearfix">
+
+<li><em>2018-04-11</em><a href="/chengben/10448.html" title="宁夏开一家小型干洗店的成本多少钱？" target="_blank">宁夏开一家小型干洗店的成本多少</a></li>
+<li><em>2018-04-10</em><a href="/chengben/10447.html" title="开干洗店投资成本多少钱?什么品牌比较好?" target="_blank">开干洗店投资成本多少钱?什么品</a></li>
+<li><em>2018-04-09</em><a href="/chengben/10434.html" title="在小区开家干洗店的成本多少钱?" target="_blank">在小区开家干洗店的成本多少钱?</a></li>
+<li><em>2018-04-09</em><a href="/chengben/10433.html" title="干洗店投资成本一般需要多少钱?" target="_blank">干洗店投资成本一般需要多少钱?</a></li>
+<li><em>2018-04-08</em><a href="/chengben/10419.html" title="开一家UCC干洗店需要多少钱?" target="_blank">开一家UCC干洗店需要多少钱?</a></li>
+
+				</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="in_right">
+		<div class="w224" style="margin-top:0; margin-bottom:20px;">
+			<div class="yj_bt"><em><a href="/peixun/">更多>></a></em><h2><a href="/peixun/" title="UCC国际洗衣">UCC国际洗衣</a></h2></div>
+			<div class="yj_c  dllb1 ullb2">
+			<div class="sy_sp"> <embed src="http://yuntv.letv.com/bcloud.swf" allowFullScreen="true" quality="high"  width="222" height="204" align="middle" allowScriptAccess="always" flashvars="uu=29def2a1d5&vu=38eb6e14bd&auto_play=1&gpcflag=1&width=270&height=204" type="application/x-shockwave-flash"></embed>
+<!--<a href="javascript:void(0);" onClick="online()" rel="nofollow"><img src="http://meiguiyuan.com/uploads/allimg/150902/11-150F214360G52.jpg" width='222' height='204' alt="UCC国际洗衣干洗店加盟超过一万家" /></a>--></div>
+
+			</div>
+		</div>
+		<div class="w224" style="margin-top:0;">
+			<div class="yj_bt"><em><a href="/peixun/">更多>></a></em><h2><a href="/peixun/" title="干洗加盟培训">干洗加盟培训</a></h2></div>
+			<div class="yj_c  dllb1 ullb2">
+				<ul class="clearfix">
+					<li><a href="/peixun/10481.html" target="_blank">干洗技术培训大概是哪些内容？</a></li>
+<li><a href="/peixun/10475.html" target="_blank">干洗技术培训哪里有？</a></li>
+<li><a href="/peixun/2672.html" target="_blank">开干洗店要注意哪些事项怎么开好</a></li>
+<li><a href="/peixun/8331.html" target="_blank">开干洗店去哪培训</a></li>
+<li><a href="/peixun/2668.html" target="_blank">若是能够开个干洗店的话利润高吗</a></li>
+<li><a href="/peixun/8194.html" target="_blank">如何学习干洗技术</a></li>
+<li><a href="/peixun/8142.html" target="_blank">开干洗店需要培训吗</a></li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="w224">
+			<div class="yj_bt"><em><a href="/peixun/">更多>></a></em><h2><a href="/peixun/" title="干洗店百科">干洗店百科</a></h2></div>
+			<div class="yj_c  dllb1 ullb2">
+				<ul class="clearfix">
+					<li><a href="/baike/10533.html" target="_blank" title="干洗店怎么维护客户关系">干洗店怎么维护客户关系</a></li>
+<li><a href="/baike/10527.html" target="_blank" title="干洗店淡季经营策略">干洗店淡季经营策略</a></li>
+<li><a href="/baike/10526.html" target="_blank" title="干洗店运营策略">干洗店运营策略</a></li>
+<li><a href="/baike/10523.html" target="_blank" title="干洗店可拓展的团队项目">干洗店可拓展的团队项目</a></li>
+<li><a href="/baike/10522.html" target="_blank" title="干洗店管理经验">干洗店管理经验</a></li>
+<li><a href="/baike/10514.html" target="_blank" title="干洗店开店小技巧">干洗店开店小技巧</a></li>
+<li><a href="/baike/10515.html" target="_blank" title="干洗店开店洗衣小技巧">干洗店开店洗衣小技巧</a></li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="w224">
+			<div class="yj_bt"><em><a href="/dongtai/">更多>></a></em><h2><a href="/dongtai/" title="加盟干洗店">加盟干洗店</a></h2></div>
+			<div class="yj_c  dllb1 ullb2">
+				<div class="zhanneidt">
+				<div id="democ" class="democ">
+				<ul class="clearfix" id="marquePic1">
+					<li><a href="/dongtai/10485.html" target="_blank" title="加盟干洗店流程是怎样的？">加盟干洗店流程是怎样的？</a></li>
+<li><a href="/dongtai/10467.html" target="_blank" title="干洗店加盟费是多少钱?">干洗店加盟费是多少钱?</a></li>
+<li><a href="/dongtai/10468.html" target="_blank" title="干洗店加盟品牌怎么选择?">干洗店加盟品牌怎么选择?</a></li>
+<li><a href="/dongtai/1389.html" target="_blank" title="浅谈干洗店行业发展的方向">浅谈干洗店行业发展的方向</a></li>
+<li><a href="/dongtai/514.html" target="_blank" title="浅谈干洗店和服装店的市场前景">浅谈干洗店和服装店的市场前景</a></li>
+<li><a href="/dongtai/9725.html" target="_blank" title="干洗店加盟UCC怎么样，给您惊喜的干洗品牌">干洗店加盟UCC怎么样，给您惊喜的</a></li>
+<li><a href="/dongtai/9723.html" target="_blank" title="干洗店加盟好吗，创业致富小能手">干洗店加盟好吗，创业致富小能手</a></li>
+<li><a href="/dongtai/9697.html" target="_blank" title="加盟干洗店怎么样，成本更低回报更好">加盟干洗店怎么样，成本更低回报更</a></li>
+<li><a href="/dongtai/9591.html" target="_blank" title="怎么开个干洗店，UCC帮你一步到位">怎么开个干洗店，UCC帮你一步到位</a></li>
+<li><a href="/dongtai/9584.html" target="_blank" title="新手开干洗店怎么做好，UCC为你保驾护航">新手开干洗店怎么做好，UCC为你保</a></li>
+<li><a href="/dongtai/9576.html" target="_blank" title="加盟UCC怎么样，投资加盟的都说好">加盟UCC怎么样，投资加盟的都说好</a></li>
+<li><a href="/dongtai/9572.html" target="_blank" title="怎么才能很好开个干洗店，开店从未像现在便捷">怎么才能很好开个干洗店，开店从未</a></li>
+<li><a href="/dongtai/9562.html" target="_blank" title="怎么选择加盟品牌合适，看UCC好评如潮">怎么选择加盟品牌合适，看UCC好评</a></li>
+<li><a href="/dongtai/9556.html" target="_blank" title="加盟UCC有什么保障，9大支持助开店">加盟UCC有什么保障，9大支持助开店</a></li>
+<li><a href="/dongtai/9547.html" target="_blank" title="现在开个什么干洗店面好，从六个方面看">现在开个什么干洗店面好，从六个方</a></li>
+<li><a href="/dongtai/9535.html" target="_blank" title="加盟干洗品牌的是怎么考察，怎么保障靠谱">加盟干洗品牌的是怎么考察，怎么保</a></li>
+<li><a href="/dongtai/9528.html" target="_blank" title="经营干洗店的注意事项，三点要看好">经营干洗店的注意事项，三点要看好</a></li>
+<li><a href="/dongtai/9490.html" target="_blank" title="创业开什么店，开干洗店的四个理由">创业开什么店，开干洗店的四个理由</a></li>
+<li><a href="/dongtai/9476.html" target="_blank" title="选择干洗开店制胜良方选择UCC">选择干洗开店制胜良方选择UCC</a></li>
+<li><a href="/dongtai/9475.html" target="_blank" title="2017投资行业之中干洗店加盟成为优质选择">2017投资行业之中干洗店加盟成为优</a></li>
+<li><a href="/dongtai/9474.html" target="_blank" title="专业的干洗加盟品牌UCC国际洗衣">专业的干洗加盟品牌UCC国际洗衣</a></li>
+<li><a href="/dongtai/9467.html" target="_blank" title="干洗加盟品牌如何抉择，走的更快更稳">干洗加盟品牌如何抉择，走的更快更</a></li>
+<li><a href="/dongtai/9451.html" target="_blank" title="干洗店加盟费是不是很高">干洗店加盟费是不是很高</a></li>
+<li><a href="/dongtai/9450.html" target="_blank" title="干洗加盟模式对开店辅助非常大">干洗加盟模式对开店辅助非常大</a></li>
+<li><a href="/dongtai/9441.html" target="_blank" title="干洗店加盟流程是怎么样">干洗店加盟流程是怎么样</a></li>
+<li><a href="/dongtai/9440.html" target="_blank" title="广州开个干洗店选择哪个品牌好">广州开个干洗店选择哪个品牌好</a></li>
+<li><a href="/dongtai/9318.html" target="_blank" title="十大干洗店加盟品牌该怎么选择好">十大干洗店加盟品牌该怎么选择好</a></li>
+<li><a href="/dongtai/9316.html" target="_blank" title="十大干洗品牌成功促销的手段">十大干洗品牌成功促销的手段</a></li>
+<li><a href="/dongtai/9288.html" target="_blank" title="加盟干洗店怎么选择干洗加盟品牌">加盟干洗店怎么选择干洗加盟品牌</a></li>
+<li><a href="/dongtai/9215.html" target="_blank" title="教你如何加盟干洗店">教你如何加盟干洗店</a></li>
+
+				</ul>
+				<ul id="marquePic2"></ul>
+				</div>
+				</div>
+			</div>
+<script type="text/javascript">
+var speed=20
+marquePic2.innerHTML=marquePic1.innerHTML
+function Marqueea(){
+if(democ.scrollTop>=marquePic1.scrollHeight){
+democ.scrollTop=0
+}else{
+democ.scrollTop++
+
+}
+}
+var MyMara=setInterval(Marqueea,speed)
+democ.onmouseover=function() {clearInterval(MyMara)}
+democ.onmouseout=function() {MyMara=setInterval(Marqueea,speed)}
+                </script>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="/templets/meiguiyuan/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/templets/meiguiyuan/js/jquery.hd.3.js"></script>
+
+<SCRIPT type="text/javascript" src="/templets/meiguiyuan/js/scrolltop.js"></SCRIPT>
+		<script type="text/javascript">
+$(function(){
+	//赛会链接
+	$("#J_slide").slider3({
+		area:".ks-switchable-content",
+		autoTime:500,
+		stopTime:2000,
+		mouseOverArea:"#J_slide",
+		left:'#J_next',
+		right:'#J_prev'
+	});
+	$("#J_slidea").slider3({
+		area:".ks-switchable-contenta",
+		autoTime:500,
+		stopTime:2000,
+		mouseOverArea:"#J_slidea",
+		left:'#J_nexta',
+		right:'#J_preva'
+	});
+});
+</script>
+<div class="b980"><a href="/chat/chat.html" target="_blank" rel="nofollow"><img src="/templets/meiguiyuan/images/980x90.gif" /></a></div>
+<div class="box clearfix">
+<div class="in_left">
+		<div class="w746">
+			<div class="yj_bt"><em><a href="/shebei/">更多>></a></em><h2><a href="/shebei/" title="干洗设备">干洗设备</a></h2></div>
+			<div class="yj_c ">
+					<div id="slide-box">
+                          <div class="slide-content" id="J_slide">
+                               <div class="wrap">
+                                    <ul class="ks-switchable-content">
+										<li>
+											<span><a href="/shebei/10452.html" target="_blank" title="开个干洗店设备配置多少钱?"><img src="/uploads/allimg/180411/1-1P4111G95D64-lp.png" alt="开个干洗店设备配置多少钱?" /></a></span>
+											<strong><a href="/shebei/10452.html" target="_blank" title="开个干洗店设备配置多少钱?">开个干洗店设备配置多少钱?</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10439.html" target="_blank" title="干洗设备多少钱一套?如何选购"><img src="/uploads/allimg/180410/1-1P4101H214237-lp.png" alt="干洗设备多少钱一套?如何选购" /></a></span>
+											<strong><a href="/shebei/10439.html" target="_blank" title="干洗设备多少钱一套?如何选购">干洗设备多少钱一套?如何选购</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10437.html" target="_blank" title="买一整套干洗设备需要多少钱?"><img src="/uploads/allimg/180409/1-1P4091QGL92-lp.png" alt="买一整套干洗设备需要多少钱?" /></a></span>
+											<strong><a href="/shebei/10437.html" target="_blank" title="买一整套干洗设备需要多少钱?">买一整套干洗设备需要多少钱?</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10428.html" target="_blank" title="开干洗店一套小型设备多少钱?"><img src="/uploads/allimg/180409/1-1P4091A056218-lp.png" alt="开干洗店一套小型设备多少钱?" /></a></span>
+											<strong><a href="/shebei/10428.html" target="_blank" title="开干洗店一套小型设备多少钱?">开干洗店一套小型设备多少钱?</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10427.html" target="_blank" title="中型干洗店的设备价格多少钱?"><img src="/uploads/allimg/180408/1-1P40QR331334-lp.png" alt="中型干洗店的设备价格多少钱?" /></a></span>
+											<strong><a href="/shebei/10427.html" target="_blank" title="中型干洗店的设备价格多少钱?">中型干洗店的设备价格多少钱?</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10416.html" target="_blank" title="开家干洗店设备成本大约多少钱?"><img src="/uploads/allimg/180404/1-1P4041I633314-lp.png" alt="开家干洗店设备成本大约多少钱?" /></a></span>
+											<strong><a href="/shebei/10416.html" target="_blank" title="开家干洗店设备成本大约多少钱?">开家干洗店设备成本大约多少钱?</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10409.html" target="_blank" title="在深圳开一家干洗店的设备成本多少钱?"><img src="/uploads/allimg/180404/1-1P404163643929-lp.png" alt="在深圳开一家干洗店的设备成本多少钱?" /></a></span>
+											<strong><a href="/shebei/10409.html" target="_blank" title="在深圳开一家干洗店的设备成本多少钱?">在深圳开一家干洗店的设备成本多</a></strong>
+										</li>
+<li>
+											<span><a href="/shebei/10400.html" target="_blank" title="哪种干洗设备比较好?干洗机多少钱"><img src="/uploads/allimg/180403/1-1P403161102953-lp.png" alt="哪种干洗设备比较好?干洗机多少钱" /></a></span>
+											<strong><a href="/shebei/10400.html" target="_blank" title="哪种干洗设备比较好?干洗机多少钱">哪种干洗设备比较好?干洗机多少</a></strong>
+										</li>
+
+                                    </ul>
+                               </div>
+                                    <div class="prev">
+                                         <a id="J_next" href="javascript:void(0)" rel="nofollow" ></a></div>
+                                    <div class="next">
+                                         <a id="J_prev" href="javascript:void(0)" rel="nofollow" ></a></div>
+                          </div>
+                    </div>
+			</div>
+		</div>
+</div>
+<div class="in_right">
+		<div class="w224">
+			<div class="yj_bt"><em><a href="/jiage/">更多>></a></em><h2><a href="/jiage/" title="干洗设备价格">干洗设备价格</a></h2></div>
+			<div class="yj_c  dllb1 ullb2 h227">
+				<ul class="clearfix" >
+
+<li style="overflow:hidden"><a href="/jiage/10441.html" target="_blank" title="开家干洗机费用多少钱?">开家干洗机费用多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10440.html" target="_blank" title="开家小型干洗店设备多少钱?">开家小型干洗店设备多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10436.html" target="_blank" title="干洗设备价格高不高?">干洗设备价格高不高?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10426.html" target="_blank" title="开干洗店干洗机价格有多少钱?">开干洗店干洗机价格有多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10410.html" target="_blank" title="投资干洗店干洗机价格多少钱?">投资干洗店干洗机价格多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10404.html" target="_blank" title="开干洗店的的设备成本要多少钱?">开干洗店的的设备成本要多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10399.html" target="_blank" title="开一家干洗店干洗机价格多少钱?">开一家干洗店干洗机价格多少钱?</a></li>
+<li style="overflow:hidden"><a href="/jiage/10390.html" target="_blank" title="投资一家干洗店干洗机设备多少钱?">投资一家干洗店干洗机设备多少钱</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="box clearfix">
+<div class="in_left">
+		<div class="w746">
+			<div class="yj_bt"><em><a href="/jiamengdian/">更多>></a></em><h2><a href="/jiamengdian/" title="加盟店展示">加盟店展示</a></h2></div>
+			<div class="yj_c">
+					<div id="slide-boxa">
+                          <div class="slide-content" id="J_slidea">
+                               <div class="wrap">
+                                    <ul class="ks-switchable-contenta">
+                                        <li>
+											<span><a href="/jiamengdian/276.html" target="_blank" title="UCC合肥干洗店加盟连锁商"><img src="/uploads/151224/1-151224163F5D8.jpg" alt="UCC合肥干洗店加盟连锁商" /></a></span>
+
+											<strong><a href="/jiamengdian/276.html" target="_blank">UCC合肥干洗店加盟连锁商</a></strong>											</li>
+<li>
+											<span><a href="/jiamengdian/273.html" target="_blank" title="UCC郑州干洗店加盟连锁商"><img src="/uploads/151224/1-151224163514a3.jpg" alt="UCC郑州干洗店加盟连锁商" /></a></span>
+
+											<strong><a href="/jiamengdian/273.html" target="_blank">UCC郑州干洗店加盟连锁商</a></strong>											</li>
+<li>
+											<span><a href="/jiamengdian/224.html" target="_blank" title="UCC云南干洗店加盟连锁商"><img src="/uploads/allimg/140422/1_140422133208_1.jpg" alt="UCC云南干洗店加盟连锁商" /></a></span>
+
+											<strong><a href="/jiamengdian/224.html" target="_blank">UCC云南干洗店加盟连锁商</a></strong>											</li>
+<li>
+											<span><a href="/jiamengdian/214.html" target="_blank" title="UCC湖北干洗店加盟连锁商"><img src="/uploads/151121/1-1511210922192K.jpg" alt="UCC湖北干洗店加盟连锁商" /></a></span>
+
+											<strong><a href="/jiamengdian/214.html" target="_blank">UCC湖北干洗店加盟连锁商</a></strong>											</li>
+<li>
+											<span><a href="/jiamengdian/210.html" target="_blank" title="UCC广西干洗店加盟连锁商"><img src="/uploads/151224/1-15122416310K48.jpg" alt="UCC广西干洗店加盟连锁商" /></a></span>
+
+											<strong><a href="/jiamengdian/210.html" target="_blank">UCC广西干洗店加盟连锁商</a></strong>											</li>
+
+
+                                    </ul>
+
+                               </div>
+
+                                    <div class="prev">
+
+                                         <a id="J_nexta" href="javascript:void(0)"></a></div>
+
+                                    <div class="next">                                         <a id="J_preva" href="javascript:void(0)"></a></div>
+
+                          </div>
+
+                    </div>			</div>
+
+		</div>
+</div>
+
+<div class="in_right">
+
+		<div class="w224">
+
+			<div class="yj_bt"><em><a href="/anli/">更多>></a></em><h2><a href="/anli/" title="干洗店加盟案例">干洗店加盟案例</a></h2></div>
+
+			<div class="yj_c  dllb1 ullb2 h227">
+
+				<ul class="clearfix">
+
+					<li><a href="/anli/10531.html" target="_blank"  title="干洗店店铺选址">干洗店店铺选址</a></li>
+<li><a href="/anli/10500.html" target="_blank"  title="干洗店开店案例">干洗店开店案例</a></li>
+<li><a href="/anli/10494.html" target="_blank"  title="干洗店经营者自白">干洗店经营者自白</a></li>
+<li><a href="/anli/9538.html" target="_blank"  title="加盟开个干洗店，摄影师顺利转行致富">加盟开个干洗店，摄影师顺利转行致</a></li>
+<li><a href="/anli/6522.html" target="_blank"  title="美女创业不靠脸，加盟UCC走向成功">美女创业不靠脸，加盟UCC走向成功</a></li>
+<li><a href="/anli/6358.html" target="_blank"  title="干洗店加盟，小投入高回报行业">干洗店加盟，小投入高回报行业</a></li>
+<li><a href="/anli/6295.html" target="_blank"  title="创业选择干洗店加盟连锁，事业更成功">创业选择干洗店加盟连锁，事业更成</a></li>
+<li><a href="/anli/5924.html" target="_blank"  title="加盟干洗店让我找到了奋斗目标">加盟干洗店让我找到了奋斗目标</a></li>
+				</ul>			</div>		</div>
+
+	</div>
+
+</div>
+
+<div class="box">
+
+	<div class="tk980">
+
+		<div class="yj_bt"><h2>UCC国际洗衣公司荣誉</h2></div>
+
+			<div class="yj_c">
+
+				<div  id="demoa" class="demo2">				 <table >                            <tr>                              <td valign="top" id="marquePic4"><table bgcolor="#FFFFFF">
+
+                                      <tr>									<td><a href="/templets/meiguiyuan/images/rongyu/2.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/2_1.jpg" alt="中国商业名牌企业" title="中国商业名牌企业"  height="122"/></a></td>									<td><a href="/templets/meiguiyuan/images/rongyu/4.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/4_1.jpg" alt="商业信用合格单位" title="商业信用合格单位"  height="122"/></a></td>									<td><a href="/templets/meiguiyuan/images/rongyu/5.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/5_1.jpg" alt="商标注册证" title="商标注册证"  height="122"/></a></td>
+
+									<td><a href="/templets/meiguiyuan/images/rongyu/7.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/7_1.jpg" alt="企业信用评价AAA级信用企业" title="企业信用评价AAA级信用企业"  height="122"/></a></td>
+
+									<td><a href="/templets/meiguiyuan/images/rongyu/8.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/8_1.jpg" alt="守合同重信用公示证书" title="守合同重信用公示证书"  height="122"/></a></td>																<td><a href="/templets/meiguiyuan/images/rongyu/11.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/11_1.jpg" alt="全国洗涤机械售后保障单位" title="全国洗涤机械售后保障单位"  height="122"/></a></td>									<td><a href="/templets/meiguiyuan/images/rongyu/15.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/15_1.jpg" alt="诚信经营示范单位" title="诚信经营示范单位"  height="122"/></a></td>
+
+									<td><a href="/templets/meiguiyuan/images/rongyu/19.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/19_1.jpg" alt="采用国际标准产品标志证书" title="采用国际标准产品标志证书"  height="122"/></a></td>									<td><a href="/templets/meiguiyuan/images/rongyu/20.jpg" target="_blank"><img src="/templets/meiguiyuan/images/rongyu/20_1.jpg" alt="高新技术企业证书" title="高新技术企业证书"  height="122"/></a></td>
+                                	</tr>
+
+                                    </table></td>
+
+                              <td id="marquePic3"></td>
+
+                            </tr>
+
+                          </table>
+
+      </div>
+
+	  <script type="text/javascript">
+var speedc=10
+
+marquePic3.innerHTML=marquePic4.innerHTML
+
+function Marquee(){
+if(demoa.scrollLeft>=marquePic4.scrollWidth){
+
+demoa.scrollLeft=0
+
+}else{
+
+demoa.scrollLeft++
+
+}
+
+}
+var MyMar=setInterval(Marquee,speedc)
+
+demoa.onmouseover=function() {clearInterval(MyMar)}
+demoa.onmouseout=function() {MyMar=setInterval(Marquee,speedc)}
+
+                </script>
+			</div>	</div>
+</div>
+
+<div class="box">
+
+	<div class="tk980">
+
+		<div class="yj_bt">利润分析</div>				<div class="yj_c" style="padding:10px;">
+
+		<div class="links_lb">
+
+			<ul class="clearfix">				<li><h3><a href="/lirun/4204.html" title="小区里开干洗店赚钱吗">小区里开干洗店赚钱吗</a></h3></li>
+
+				<li><h3><a href="/lirun/4205.html" title="县城开干洗店赚钱吗">县城开干洗店赚钱吗</a></h3></li>				<li><h3><a href="/lirun/4218.html" title="现在开干洗店赚钱吗">现在开干洗店赚钱吗</a></h3></li>				<li><h3><a href="/lirun/4216.html" title="在镇上开干洗店赚钱吗">在镇上开干洗店赚钱吗</a></h3></li>
+
+				<li><h3><a href="/lirun/4217.html" title="在学校开干洗店赚钱吗">在学校开干洗店赚钱吗</a></h3></li>
+
+				<li><h3><a href="/zhinan/4215.html" title="开干洗店怎么样">开干洗店怎么样</a></h3></li>
+
+				<li><h3><a href="/lirun/4224.html" title="开个干洗店赚钱吗">开个干洗店赚钱吗</a></h3></li>
+
+				<li><h3><a href="/lirun/4221.html" title="怎样开干洗店赚钱">怎样开干洗店赚钱</a></h3></li>				<li><h3><a href="/lirun/4222.html" title="开干洗店能赚钱吗">开干洗店能赚钱吗</a></h3></li>				<li><h3><a href="/lirun/358.html" title="开小型干洗店赚钱吗">开小型干洗店赚钱吗</a></h3></li>				<li><h3><a href="/lirun/4234.html" title="开个干洗店能赚钱吗">开个干洗店能赚钱吗</a></h3></li>				<li><h3><a href="/lirun/383.html" title="干洗店利润分析">干洗店利润分析</a></h3></li>				<li><h3><a href="/lirun/19.html" title="开干洗店赚钱吗">开干洗店赚钱吗</a></h3></li>				<li><h3><a href="/zhuanqian/" title="开个干洗店赚钱吗">开个干洗店赚钱吗</a></h3></li>				<li><h3><a href="/zhuanqian/10483.html" title="在农村开干洗店赚钱吗？">在农村开干洗店赚钱吗？</a></h3></li>
+<li><h3><a href="/zhuanqian/10466.html" title="怎样开干洗店才能赚钱?">怎样开干洗店才能赚钱?</a></h3></li>
+<li><h3><a href="/zhuanqian/9753.html" title="品牌干洗店加盟哪家好，好的品牌致富不用愁">品牌干洗店加盟哪家好，好的品牌致富不用愁</a></h3></li>
+<li><h3><a href="/zhuanqian/9732.html" title="加盟干洗店能赚多少钱，年预期24.8万步入致富之路">加盟干洗店能赚多少钱，年预期24.8万步入致富</a></h3></li>
+<li><h3><a href="/zhuanqian/9696.html" title="加盟干洗店能赚多少钱，年预期利润少说都是在18万">加盟干洗店能赚多少钱，年预期利润少说都是在</a></h3></li>
+<li><h3><a href="/zhuanqian/9378.html" title="干洗加盟店年预期赚钱多少">干洗加盟店年预期赚钱多少</a></h3></li>
+<li><h3><a href="/zhuanqian/5470.html" title="2017年预期投资干洗店赚钱吗">2017年预期投资干洗店赚钱吗</a></h3></li>
+<li><h3><a href="/zhuanqian/9200.html" title="投资一个干洗店赚钱吗">投资一个干洗店赚钱吗</a></h3></li>
+<li><h3><a href="/zhuanqian/9187.html" title="怎样开干洗店比较赚钱">怎样开干洗店比较赚钱</a></h3></li>
+<li><h3><a href="/zhuanqian/9186.html" title="干洗店是否赚钱">干洗店是否赚钱</a></h3></li>
+
+
+			</ul>
+
+		</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="box">
+
+	<div class="tk980">
+
+		<div class="yj_bt"><code>免费客服热线：400-8856-638</code>友情链接</div>
+
+				<div class="yj_c" style="padding:10px;">
+
+		<div class="links_lb">			<ul class="clearfix">
+
+				<li><a href='/shebei/' target='_blank'>干洗设备多少钱</a> </li><li><a href='http://www.xiuxianshipin.com.cn' target='_blank'>零食店加盟</a> </li><li><a href='http://www.gzolans.com/' target='_blank'>净水器</a> </li><li><a href='http://www.ganxinet.com/' target='_blank'>干洗店加盟连锁</a> </li><li><a href='http://www.yananju.cn' target='_blank'>燕窝加盟</a> </li><li><a href='http://nuantongkongtiao.huangye88.com/' target='_blank'>暖通空调网</a> </li><li><a href='http://www.ganxi.tv' target='_blank'>干洗加盟网</a> </li><li><a href='/youshi/' target='_blank'>中国干洗店十大排名</a> </li><li><a href='/wenda/' target='_blank'>怎样开干洗店</a> </li><li><a href='http://www.ganxi360.net' target='_blank'>干洗店加盟</a> </li><li><a href='http://www.21yinpin.com' target='_blank'>世纪饮品网</a> </li><li><a href='http://ganxi.dezhoudaily.com/' target='_blank'>干洗店加盟</a> </li><li><a href='/news/' target='_blank'>干洗店加盟资讯</a> </li>			</ul>
+
+		</div>		</div>	</div>
+
+</div>
+<div class="footer">
+
+	<strong><a href="/">UCC国际洗衣集团</a></strong>
+
+	<span>
+
+	上海优喜洗烫设备有限公司 版权所有 2006-2018 <a href="http://www.miitbeian.gov.cn" rel="nofollow" target="_black">沪ICP备14001404</a><br />
+
+地址:中国上海市沪太路4361号(呼叫中心产业基地) 邮政编码:201906
+
+<a href="/sitemap.xml">网站地图</a>
+
+
+<script type="text/javascript">
+
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6dfa21bdffc50abbfed1b4e9683706a3' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+    <div style="width:300px;margin:0 auto; padding:20px 0;">
+     <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011302003701" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.beian.gov.cn/img/ghs.png " style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011302003701号</p></a>
+    </div>
+
+</span>
+
+</div>
+
+<script language="JavaScript" type="text/javascript" src="/templets/meiguiyuan/swt/bdsqpc.js"></script>
+
+<script>
+
+function stop(){
+
+return false;
+
+}
+
+document.oncontextmenu=stop;
+
+</script>
+
+<script src="/templets/meiguiyuan/js/pos.js"></script>
+<script language="JavaScript" type="text/javascript" src="http://www.xiuxianyike.com/templets/zl/js/swt1.js"></script>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/templets/meiguiyuan/js/jquery.sequence-min.js"></script>
+<script src="/templets/meiguiyuan/js/sequencejs-options.modern-slide-in.js"></script>
+</body>
+</html>

@@ -6,8 +6,8 @@ from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 class U88sipderSpider(scrapy.Spider):
     name = 'u88sipder'
-    allowed_domains = ['www.phone.cn']
-    start_urls = ['http://www.phone.cn']
+    allowed_domains = ['www.dfjmw.com.cn']
+    start_urls = ['http://www.dfjmw.com.cn/']
     #def start_requests(self):
         #urls=["http://www.phone.net"]
         #for url in urls:
