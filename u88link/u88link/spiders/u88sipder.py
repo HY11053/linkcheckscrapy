@@ -6,12 +6,8 @@ from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 class U88sipderSpider(scrapy.Spider):
     name = 'u88sipder'
-    allowed_domains = ['www.dfjmw.com.cn']
-    start_urls = ['http://www.dfjmw.com.cn/']
-    #def start_requests(self):
-        #urls=["http://www.phone.net"]
-        #for url in urls:
-
+    allowed_domains = ['www.phone.net']
+    start_urls = ['http://www.phone.net/']
     def parse(self, response):
         item = U88LinkItem()
         sel = scrapy.Selector(response)
@@ -21,10 +17,8 @@ class U88sipderSpider(scrapy.Spider):
             link = str(link_sel.re('href="(.*?)"')[0]) # 每一个url
             link=link.replace('%20', '')
             if link is not None:
-                #yield response.follow(link, callback=self.parse)
-                #yield scrapy.Request(response.urljoin(link), callback=self.parse)
                 yield scrapy.Request(response.urljoin(link.rstrip()), callback=self.parse,
-                                     errback=self.errback_httpbin)
+                                     errback=self.errback_httpbin,meta={'dont_redirect': True})
                 #link_text = link_sel.xpath('text()').extract()  # 每个url的链接文本, 若不存在设为None
                 #if link_text:
                  #   item['title'] = str(link_text[0].strip())
@@ -49,24 +43,14 @@ class U88sipderSpider(scrapy.Spider):
             # these exceptions come from HttpError spider middleware
             # you can get the non-200 response
             response = failure.value.response
-            if(response.status != 400):
-                referers = response.request.headers.get('Referer',None)
-                #referers=response.request.headers.get('Referer', None)
-                #item['link']=response.url
-                #item['status']=response.status
-                #item['referer']=referers
-                print(response.url,response.status,referers)
-                yield scrapy.Request(response.url, callback=self.parse,
-                                     errback=self.errback_httpbin)
-                yield item
-            else:
-                referers = response.request.headers.get('Referer', None)
-                item['link'] = response.url
-                item['status'] = response.status
-                item['referer'] = referers
-                print(response.url, response.status, referers,response.body)
-                yield scrapy.Request(response.url, callback=self.parse,
-                                     errback=self.errback_httpbin)
+            referers = response.request.headers.get('Referer',None)
+            item['link']=response.url
+            item['status']=response.status
+            item['referer']=referers
+            print(response.url,response.status,referers)
+            yield scrapy.Request(response.url, callback=self.parse,
+                                 errback=self.errback_httpbin)
+            yield item
             #self.logger.error('HttpError on %d,%s', (response.url,response.status))
         elif failure.check(DNSLookupError):
             # this is the original request
