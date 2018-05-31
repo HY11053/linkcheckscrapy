@@ -4,13 +4,9 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-import json
 from twisted.enterprise import adbapi
-import MySQLdb
-import MySQLdb.cursors
-import codecs
-import json
-from logging import log
+import mysql.connector
+
 from twisted.enterprise import adbapi
 
 class U88LinkPipeline(object):
@@ -37,10 +33,9 @@ class U88LinkPipeline(object):
             user=settings['MYSQL_USER'],
             passwd=settings['MYSQL_PASSWD'],
             charset='utf8',  # 编码要加上，否则可能出现中文乱码问题
-            cursorclass=MySQLdb.cursors.DictCursor,
             use_unicode=False,
         )
-        dbpool = adbapi.ConnectionPool('MySQLdb', **dbparams)  # **表示将字典扩展为关键字参数,相当于host=xxx,db=yyy....
+        dbpool = adbapi.ConnectionPool('mysql.connector', **dbparams)  # **表示将字典扩展为关键字参数,相当于host=xxx,db=yyy....
         return cls(dbpool)  # 相当于dbpool付给了这个类，self中可以得到
     # pipeline默认调用
     def process_item(self, item, spider):
@@ -52,7 +47,7 @@ class U88LinkPipeline(object):
     def _conditional_insert(self, tx, item):
         # print item['name']
         sql = "insert into links(url,referer,status) values(%s,%s,%s)"
-        params = (item["url"], item["referer",'status'])
+        params = (item["link"], item["referer"],item['status'])
         tx.execute(sql, params)
 
     # 错误处理方法

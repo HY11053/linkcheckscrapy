@@ -6,12 +6,17 @@ from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 class U88sipderSpider(scrapy.Spider):
     name = 'u88sipder'
-    allowed_domains = ['www.phone.net']
-    start_urls = ['http://www.phone.net/']
+    allowed_domains = ['dfjmw.com.cn']
+    start_urls = ['http://www.dfjmw.com.cn/']
     def parse(self, response):
         item = U88LinkItem()
+        referers = response.request.headers.get('Referer', None)
+        item['link'] = response.url
+        item['status'] = response.status
+        item['referer'] = referers
+        print(response.url, response.status)
+        yield item
         sel = scrapy.Selector(response)
-        print(response.url,response.status)
         links_in_a_page = sel.xpath('//a[@href]')  # 页面内的所有链接
         for link_sel in links_in_a_page:
             link = str(link_sel.re('href="(.*?)"')[0]) # 每一个url
@@ -27,7 +32,7 @@ class U88sipderSpider(scrapy.Spider):
                 #item['status'] = response.status
                 #item['link']=response.urljoin(link)
 
-                #yield item
+
 
     def parse_httpbin(self, response):
         self.logger.info('Got successful response from {}'.format(response.url))

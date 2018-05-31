@@ -79,7 +79,7 @@ DOWNLOADER_MIDDLEWARES = {
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
  #   'u88link.pipelines.U88LinkPipeline': 300,
-'u88link.pipelines.WebcrawlerScrapyPipeline': 300,#保存到mysql数据库
+'u88link.pipelines.U88LinkPipeline': 300,#保存到mysql数据库
 #'u88link.pipelines.JsonWithEncodingPipeline': 300,#保存到文件中
 }
 
