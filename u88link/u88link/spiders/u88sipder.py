@@ -6,8 +6,8 @@ from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 class U88sipderSpider(scrapy.Spider):
     name = 'u88sipder'
-    allowed_domains = ['dfjmw.com.cn']
-    start_urls = ['http://www.dfjmw.com.cn/']
+    allowed_domains = ['www.u88.com']
+    start_urls = ['https://www.u88.com/']
     def parse(self, response):
         item = U88LinkItem()
         referers = response.request.headers.get('Referer', None)
